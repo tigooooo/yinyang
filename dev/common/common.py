@@ -1,7 +1,16 @@
 #! /usr/bin/python
 # coding = utf-8
 
-""" 本模块包括所有通用基本功能函数 """
+""" 本模块包括所有通用基本功能函数及通用全局变量 """
+'''
+全局状态字典
+Parameters:
+  secen  - 当前处于的场景
+  physicalPower - 体力值
+'''
+status_dic = { "secen":"",
+               "physicalPower": 0 }
+
 
 """
 回合开始处理功能函数
